@@ -5,7 +5,8 @@ This is the ridge regression model that my team and I built which was trained on
 The largest challenge of this project was the messy and sparse dataset. Therefore, we focused on engineering useful features and considering ways to deal with absent data. We determined that the following features were the most useful predictors:
 - Equipment type
 - Age
-- Usage  
+- Usage    
+  
 Given more time, we believe incorporating recent average prices by equipment type would also be a strong predictor of sale price.
 
 `ridge_model.py` contains our error calculation, data processing pipeline, cross-validation and model training.
